@@ -1,0 +1,9 @@
+importFrom("stats", sd, quantile, rweibull, dweibull,  pweibull, pgamma, dgamma, rgamma, runif, pnorm, rnorm, optimize, optim, uniroot)
+
+importFrom("pracma",  psi, gammainc, inv)
+
+
+
+exportPattern("^[[:alpha:]]+")
+
+exportPattern("^[^\\.]")
